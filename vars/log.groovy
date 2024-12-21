@@ -7,5 +7,5 @@ def warning(message) {
 }
 
 def copyRPM(type, version) {
-    echo "Should be downloading the RPM for: ${type}, ${version}"
+    println type
 }
